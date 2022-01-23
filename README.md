@@ -161,10 +161,6 @@ $hashids->encode(4); // mO
 $hashids->encode(5); // nR
 ```
 
-## Curse words! #$%@
+## Demo for Video HashId
+Useful for video ID on  [Delgarm Video](https://video.delgarm.com)
 
-This code was written with the intent of placing the output ids in visible places, like the URL. Therefore, the algorithm tries to avoid generating most common English curse words by generating ids that never have the following letters next to each other:
-
-```
-c, f, h, i, s, t, u
-```
